@@ -5,7 +5,7 @@ export const projects = [
     description:
       "The general idea was to create an application in which you can see information from different countries, using the external restcountries api. From it you can, among other things: search for countries, filter/order them and create tourist activities. For the filtering and sorting functionalities we did not use the external API endpoints that already return the filtered or ordered results but we had to do it ourselves. In particular, some of the ordering or filtering should be done from the frontend.",
     image: "./countries.png", 
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Feyenoord515/PI-Countries",
   },
   {
     title: "Winery project",
@@ -13,7 +13,7 @@ export const projects = [
     description:
     "The project consisted of comprehensively planning a complete e-commerce, with a database, backend and frontend. In this case it was the Winery project, with access for users and administrators. With stock control, sales, payment gateways, opinions on the different products, access with username and password for registered users, user registration form, location with maps of the different withdrawal points",
     image: "./wines.jpg",
-    link: "https://reactbootcamp.com",
+    link: "https://pg-vinos.vercel.app/",
   },
   {
     title: "Recipes search",
@@ -21,7 +21,7 @@ export const projects = [
     description:
       "The idea here was to solve what I cook with what I have at home. A search engine for recipes by ingredients. By clicking on the recipe, you can access the complete ingredients and the step by step. Database with recipes, backend and frontend. The styles are minimalist because of the context in which the app will be used.",
     image: "./recipes.png",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Feyenoord515/Food",
   },
   {
     title: "Weather app",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Information about the weather with city searches and weather in the current city. CSS and Bootstrap for the styles",
     image: "./Clima.png",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Feyenoord515/FT-M2/tree/master/09-React-Routing",
   },
 ];
 
