@@ -71,9 +71,24 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
+          
           <p className="leading-relaxed mb-5">
           Leave a message and I will contact you shortly
           </p>
+          <div className="flex justify-center">
+            <a
+              href={"https://www.linkedin.com/in/nahuel-enrique-molinari?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYucWwNIGRdiVfJbnBOEgbw%3D%3D"}
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              Linkedin profile
+            </a>
+            <a
+              href={"https://github.com/Feyenoord515"}
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              Github profile
+            </a>
+          </div>
+           
+          
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
