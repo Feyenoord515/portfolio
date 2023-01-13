@@ -7,11 +7,11 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Nahuel.
-            <br className="hidden lg:inline-block" />Full Stack Developer curious, organized and passionate. Teamwork, cooperative and dynamic, aiming for results and daily learning.
+            <br className="hidden lg:inline-block" />Full Stack Developer curious, organised and passionate. I like cooperative and dynamic teams, looking for results and daily feedback.
           </h1>
           <p className="mb-8 leading-relaxed">
-          I have been working as a team for more than 15 years, meeting weekly or monthly objectives with an orientation to fully satisfy the needs of the client.
-          Programming has always been my hobby and today I can say that I make a living from what I am passionate about...
+          I have been working in Teams for more than 15 years, meeting weekly or monthly objectives with an orientation to fully satisfy the needs of the client.
+          Programming has always been my hobby and today it’s exciting for me to say that I make a living from what I am passionate about...
           </p>
           <div className="flex justify-center">
             <a
