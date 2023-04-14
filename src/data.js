@@ -5,7 +5,7 @@ export const projects = [
     description:
     "La idea general fue crear una aplicación en la que se pueda ver información de diferentes países, utilizando la API externa restcountries. Desde ella, se puede, entre otras cosas: buscar países, filtrarlos/ordenarlos y crear actividades turísticas. Para las funcionalidades de filtrado y ordenamiento no utilizamos los endpoints de la API externa que ya devuelven los resultados filtrados o ordenados, sino que tuvimos que hacerlo nosotros mismos. En particular, algunos de los ordenamientos o filtrados debían hacerse desde el frontend.",
     image: "./countries.png", 
-    link: "https://github.com/Feyenoord515/PI-Countries",
+    link: "https://github.com/Feyenoord515/",
   },
   {
     title: "Winery project",
@@ -20,8 +20,8 @@ export const projects = [
     subtitle: "PERN Stack",
     description:
     "La idea aquí era resolver qué cocinar con lo que tengo en casa. Un motor de búsqueda de recetas por ingredientes. Al hacer clic en la receta, se puede acceder a los ingredientes completos y al paso a paso. Base de datos con recetas, backend y frontend. Los estilos son minimalistas debido al contexto en el que se usará la aplicación.",  
-    image: "./recipes.png",
-    link: "https://github.com/Feyenoord515/Food",
+    image: "./recipes3.png",
+    link: "https://github.com/Feyenoord515/",
   },
   {
     title: "MelaTube",
@@ -37,15 +37,15 @@ export const projects = [
     description:
     "El clásico juego, para dos jugadores, con un marcador.",
     image: "./tictactoe.png",
-    link: "https://github.com/Feyenoord515/weather",
+    link: "https://github.com/Feyenoord515/",
   },
   {
-    title: "Weather app",
+    title: "Music Player",
     subtitle: "React Hooks",
     description:
-    "Información sobre el clima con búsquedas por ciudad y el clima en la ciudad actual. CSS y Bootstrap para los estilos",
-    image: "./Clima.png",
-    link: "https://github.com/Feyenoord515/weather",
+    "Reproductor de musica consumiendo la api de Spotify. Funciones de busqueda por genero, artista, playlist y album. Canciones mas conocidas del artista, playlist mas escuchadas, entre otras funciones.",
+    image: "./musicplayer1.png",
+    link: "https://github.com/Feyenoord515/",
   },
   
 ];
