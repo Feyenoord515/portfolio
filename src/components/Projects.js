@@ -1,5 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
+import LazyLoad from 'react-lazy-load';
 import { projects } from "../data";
 
 export default function Projects() {
@@ -23,11 +24,13 @@ export default function Projects() {
               key={project.image}
               className="sm:w-1/2 w-full p-4">
               <div className="relative h-full overflow-hidden">
+              <LazyLoad offset={100}>
                 <img
                   alt="gallery"
                   className="absolute inset-0 object-cover object-center h-full w-full"
                   src={project.image}
                 />
+                </LazyLoad>
                 <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
