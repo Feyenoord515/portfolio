@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from "react-lazy-load";
 
 export default function About() {
   return (
@@ -26,6 +27,7 @@ export default function About() {
             </a>
           </div>
         </div>
+        <LazyLoad offset={100}>
         <div className="md:w-1/2 w-full">
           <img
             className="object-cover object-center rounded"
@@ -33,6 +35,7 @@ export default function About() {
             src="./Perfil.jpg"
           />
         </div>
+        </LazyLoad>
       </div>
     </section>
   );
