@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "PERN Stack",
     description:
     "La idea general fue crear una aplicación en la que se pueda ver información de diferentes países, utilizando la API externa restcountries. Desde ella, se puede, entre otras cosas: buscar países, filtrarlos/ordenarlos y crear actividades turísticas. Para las funcionalidades de filtrado y ordenamiento no utilizamos los endpoints de la API externa que ya devuelven los resultados filtrados o ordenados, sino que tuvimos que hacerlo nosotros mismos. En particular, algunos de los ordenamientos o filtrados debían hacerse desde el frontend.",
-    image: "./countries.png", 
+    image: "/countries.png", 
     link: "https://github.com/Feyenoord515/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "PERN Stack",
     description:
     "El proyecto consistió en planificar de manera integral un e-commerce completo, con base de datos, backend y frontend. En este caso fue el proyecto Bodega, con acceso para usuarios y administradores. Con control de stock, ventas, pasarelas de pago, opiniones sobre los distintos productos, acceso con usuario y contraseña para los usuarios registrados, formulario de registro de usuario, ubicación con mapas de los distintos puntos de retiro.",
-    image: "./wines.jpg",
+    image: "/wines.jpg",
     link: "https://pg-vinos.vercel.app/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "PERN Stack",
     description:
     "La idea aquí era resolver qué cocinar con lo que tengo en casa. Un motor de búsqueda de recetas por ingredientes. Al hacer clic en la receta, se puede acceder a los ingredientes completos y al paso a paso. Base de datos con recetas, backend y frontend. Los estilos son minimalistas debido al contexto en el que se usará la aplicación.",  
-    image: "./recipes3.png",
+    image: "/recipes3.png",
     link: "https://github.com/Feyenoord515/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "React Hooks",
     description:
     "Página web diseñada para mis hijos pequeños. La idea fue hacer un clon de YouTube y personalizarlo, tanto el front-end como la restricción de los canales y las búsquedas a los que se puede acceder. Cumple la función de control parental.",
-    image: "./MelaTube1.png", 
+    image: "/MelaTube1.png", 
     link: "https://github.com/Feyenoord515/melatube",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "React Hooks",
     description:
     "El clásico juego, para dos jugadores, con un marcador.",
-    image: "./tictactoe.png",
+    image: "/tictactoe.png",
     link: "https://github.com/Feyenoord515/",
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     subtitle: "React Hooks",
     description:
     "Reproductor de musica consumiendo la api de Spotify. Funciones de busqueda por genero, artista, playlist y album. Canciones mas conocidas del artista, playlist mas escuchadas, entre otras funciones.",
-    image: "./musicplayer1.png",
+    image: "/musicplayer1.png",
     link: "https://github.com/Feyenoord515/",
   },
   

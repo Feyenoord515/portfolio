@@ -1,5 +1,4 @@
 import React from "react";
-import LazyLoad from "react-lazy-load";
 
 export default function About() {
   return (
@@ -12,7 +11,11 @@ export default function About() {
             desarrollador Full Stack
           </h1>
           <p className="mb-8 leading-relaxed">
-            Con experiencia en tecnologías como React, Node.js, Firebase, Docker y AntDesign. Utilizo metodologías ágiles como Scrum para trabajar en equipo y abordar desafíos técnicos de manera eficiente. Me considero una persona curiosa, organizada y apasionada por la tecnología, siempre en búsqueda de nuevas técnicas y buenas prácticas para mejorar mi trabajo.
+            Con experiencia en tecnologías como React, Node.js, Firebase, Docker y
+            AntDesign. Utilizo metodologías ágiles como Scrum para trabajar en
+            equipo y abordar desafíos técnicos de manera eficiente. Me considero una
+            persona curiosa, organizada y apasionada por la tecnología, siempre en
+            búsqueda de nuevas técnicas y buenas prácticas para mejorar mi trabajo.
           </p>
           <div className="flex justify-center">
             <a
@@ -27,15 +30,14 @@ export default function About() {
             </a>
           </div>
         </div>
-        <LazyLoad offset={100}>
         <div className="md:w-1/2 w-full">
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./Perfil.jpg"
+            src="/Perfil.jpg"
+            loading="lazy"
           />
         </div>
-        </LazyLoad>
       </div>
     </section>
   );
