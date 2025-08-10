@@ -85,3 +85,87 @@ export const skills = [
    "Github",
    "Bootstrap"
 ];
+
+// Nuevo contenido senior
+export const experiences = [
+  {
+    company: "Distrinando",
+    role: "Middleware & Full Stack Developer",
+    period: "Ago 2023 – Presente",
+    location: "Buenos Aires, AR",
+    summary:
+      "Integraciones e-commerce ↔ SAP HANA con Node/Express y Service Layer. Automatización de procesos críticos y emisión fiscal.",
+    highlights: [
+      "Orquestación de órdenes: direcciones, lotes, descuentos, pagos",
+      "Facturación dinámica (reserva/común) según disponibilidad de stock",
+      "Integración Facturante API + webhooks para foliado automático",
+      "Conciliaciones y reportes de ventas/stock; automatización administrativa",
+      "Despliegues críticos en Google Cloud Functions",
+    ],
+    tech: [
+      "Node.js",
+      "Express",
+      "SAP B1 Service Layer",
+      "GCP Functions",
+      "Webhooks",
+      "PostgreSQL",
+      "MongoDB",
+    ],
+  },
+  {
+    company: "IemData",
+    role: "Full Stack Developer",
+    period: "Feb 2023 – Oct 2023",
+    location: "Buenos Aires, AR",
+    summary:
+      "Funcionalidades para tiendas online con React/Redux y backend Node/Nest.",
+    highlights: [
+      "Conexión con MySQL, PostgreSQL y MongoDB",
+      "Acompañamiento end-to-end con prácticas Scrum",
+    ],
+    tech: [
+      "React",
+      "Redux",
+      "Node.js",
+      "Nest.js",
+      "Express",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+    ],
+  },
+  {
+    company: "ONG Grupo Barrial",
+    role: "Full Stack Developer",
+    period: "Dic 2022 – Ene 2023",
+    location: "Buenos Aires, AR",
+    summary:
+      "Herramientas educativas y utilidades con Firebase y Docker.",
+    highlights: ["Tic‑Tac‑Toe, reproductor de música, app del clima"],
+    tech: ["Firebase", "Docker", "AntDesign", "React"],
+  },
+];
+
+export const integrations = [
+  {
+    title: "E‑commerce ↔ SAP Business One (Service Layer)",
+    description:
+      "Pipeline para sincronizar órdenes, stock y facturación entre VTEX/Magento/Shopify y SAP HANA.",
+    capabilities: [
+      "Alta de clientes y direcciones; asignación de lotes",
+      "Pagos diferenciados y descuentos",
+      "Facturación automática via Facturante API + webhooks",
+      "Conciliaciones y reportes programados",
+    ],
+    tech: [
+      "Node.js",
+      "Express",
+      "SAP B1 SL",
+      "GCP Functions",
+      "PostgreSQL",
+      "MongoDB",
+      "Webhooks",
+    ],
+    links: [{ label: "Contacto para demo", href: "#contact" }],
+  },
+];
